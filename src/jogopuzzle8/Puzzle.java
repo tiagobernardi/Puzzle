@@ -43,7 +43,7 @@ public class Puzzle {
             int[] pzero = localizarPosicaoZero(revisar.getEstado());
             System.out.println("Interação Número: " + (++cont));
             if (Arrays.deepEquals(revisar.getEstado(), solucao)) {
-                System.out.println("**** Solução Encontrada");
+                System.out.println(" A solução foi encontrada");
                 return revisar;
             }
             ArrayList<Elo> filhos = new ArrayList<Elo>();
