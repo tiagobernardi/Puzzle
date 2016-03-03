@@ -19,7 +19,7 @@ public class Puzzle {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int[][] inicio = {{4, 1, 0}, {2, 6, 3}, {7, 5, 8}};
+        int[][] inicio = {{1, 2, 3}, {4, 5, 6}, {7, 0, 8}};
         int[][] solucao = {{1, 2, 3}, {4, 5, 6}, {7, 8, 0}};
         Elo inicial = new Elo(inicio);
         Elo sol = BuscarSolucao(inicial, solucao);
